@@ -14,8 +14,18 @@ Hasil Saya Menyadur Pertemuan ke-4 : <br>
     <li>1usecase adalah bagian dari usecase lainnya</li>
     <li>contoh : untuk menejemen data suku cadang, pelayan toko(admin) harus login ke system terlebih dahulu.</li>
     </ol>
-  extend</li>
-  <li></li>
+  extend :<ol>
+    <li>suatu usecase yang dapat berdiri sendiri meski tanpa usecase lain</li>
+    <li>arah panah exclude mengarah pada usecase yang menjadi induk(yang akan di kembangkan)</li>
+    <li>contoh : setelah melihat suku cadang, konsumen dapat memilijh suku cadang(dengan cara menambahkan ke keranjang belanja).
+      <ol>
+        <li>Konsumen pun dapat melihat kerangjang belanja setelah memilih suku cadang(Hasil extend memilih suku cadang)</li>
+      </ol>
+    </li>
+  <li><ol>
+    <li>extend => perluasan/pengembangan usecase inti(Panah ke arah usecase induk)</li>
+    <li>include => Usecase tertentu memiliki kondisi/syarat/ketentuan yang harus terpenuhi sebelum dijalankan (Panah ke arah usecase yang di perlukan)</li>
+    </ol></li>
   <li></li>
   <li></li>
 </ol>
