@@ -1,0 +1,33 @@
+			Tabel 4.4. Deskripsi Usecase Menambahkan Suku Cadang ke Keranjang Belanja
+
+No. Usecase		: 4
+Nama Usecase		: Melihat Katalog Suku Cadang
+Deskripsi Usecase	: Digunakan konsumen untuk melihat koleksi suku cadang yang ada pada toko SUMBER JAYA MOTOR. 
+Aktor Utama		: Konsumen
+Aktor Pendukung		: Tidak ada
+Usecase yang di-include	: Tidak ada
+Usecase yang di-extend	: Tidak ada
+Kondisi awal		: Sistem menampilkan halaman Katalog Suku Cadang
+Kondisi akhir		: Sistem menyimpan suku cadang yang ditambahkan Konsumen ke keranjang belanja
+Pemicu			: Konsumen membuka halaman utama aplikasi dan menekan Lihat Katalog Suku Cadang
+Skenario Normal: Konsumen									Reaksi Sistem
+a.	Membuka halaman utama aplikasi dan 
+	menekan Lihat Katalog Suku Cadang.					b.	Membaca data suku cadang.
+										c.	Menampilkan halaman Katalog Suku Cadang.
+d.	Menambahkan jumlah pesanan.
+e.	Menekan tombol PESAN.							f.	Mengecek stok suku cadang.
+										g.	Menyimpan suku cadang yang ditambahkan ke keranjang belanja 
+											jika stok suku cadang mencukupi.
+Skenario Alternatif	
+a.	Membuka halaman utama aplikasi 
+	dan menekan Lihat Katalog Suku Cadang.					b.	Membaca data suku cadang.
+										c.	Menampilkan halaman Katalog Suku Cadang.
+d.	Menambahkan jumlah pesanan.
+e.	Menekan tombol PESAN.							f.	Mengecek stok suku cadang.
+										g.	Menampilkan informasi suku cadang gagal ditambahkan ke keranjang 
+											jika stok suku cadang tidak mencukupi.
+h.	Memperbaharui pesanan suku cadang 
+	(jumlah pesanan).
+i.	Menekan tombol PESAN.							j.	Mengecek stok suku cadang.
+										k.	Menyimpan suku cadang yang ditambahkan ke keranjang belanja 
+											jika stok suku cadang mencukupi.
